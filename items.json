@@ -65,7 +65,10 @@
         }
     },
     {
-        "name": "xxxxx",
+        "name": {
+            "en": "xxxxx",
+            "zh": "xxxxx"
+        },
         "url": "https://xxxxx.puppylab.org",
         "image": "xxxxx.png",
         "description": {
