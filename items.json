@@ -45,7 +45,7 @@
         },
         "url": "https://ptable.puppylab.org",
         "image": "ptable.png",
-        "tags": ["Periodic Table", "元素周期表"],
+        "tags": ["Periodic Table", "Chemistry"],
         "description": {
             "en": "An online periodic table that provides detailed information and interactive features for elements, making it easy to learn and look up chemical elements.",
             "zh": "一个在线元素周期表，提供元素的详细信息和交互式功能，方便学习和查询化学元素。"
@@ -54,7 +54,7 @@
     {
         "name": {
             "en": "Git Ignore Generator",
-            "zh": "GitIgnore生成器"
+            "zh": "Git Ignore生成器"
         },
         "url": "https://gitignore.puppylab.org",
         "image": "gitignore.png",
