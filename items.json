@@ -1,0 +1,76 @@
+[
+    {
+        "name": {
+            "en": "MyPassword",
+            "zh": "MyPassword"
+        },
+        "url": "https://mypassword.puppylab.org",
+        "image": "mypassword.png",
+        "tags": ["Password Manager", "Browser Extension"],
+        "description": {
+            "en": "MyPassword is a tool for managing website passwords and enables automatic password filling via a browser plugin.",
+            "zh": "MyPassword是一个管理网站密码的工具，并通过浏览器插件实现自动填充密码。"
+        }
+    },
+    {
+        "name": {
+            "en": "Crypto Drive",
+            "zh": "Crypto Drive"
+        },
+        "url": "https://cryptodrive.puppylab.org",
+        "image": "cryptodrive.png",
+        "tags": ["Encryption", "Drive", "Cloud Sync"],
+        "description": {
+            "en": "Crypto Drive allows users to map local directories as virtual disks. Writing to the virtual disk is automatically encrypted and supports S3 cloud synchronization.",
+            "zh": "Crypto Drive允许用户将本地目录映射为虚拟盘，通过虚拟盘写入会自动加密，并支持S3云同步。"
+        }
+    },
+    {
+        "name": {
+            "en": "Ascii Draw",
+            "zh": "Ascii Draw"
+        },
+        "url": "https://asciidraw.puppylab.org",
+        "image": "asciidraw.png",
+        "tags": ["ASCII", "Diagram"],
+        "description": {
+            "en": "AsciiDraw is an online website for creating ASCII diagrams, allowing users to easily create and share ASCII diagrams.",
+            "zh": "AsciiDraw是一个在线制作ASCII图表的网站，允许用户轻松创建和分享ASCII图表。"
+        }
+    },
+    {
+        "name": {
+            "en": "Periodic Table",
+            "zh": "元素周期表"
+        },
+        "url": "https://ptable.puppylab.org",
+        "image": "ptable.png",
+        "tags": ["Periodic Table", "元素周期表"],
+        "description": {
+            "en": "An online periodic table that provides detailed information and interactive features for elements, making it easy to learn and look up chemical elements.",
+            "zh": "一个在线元素周期表，提供元素的详细信息和交互式功能，方便学习和查询化学元素。"
+        }
+    },
+    {
+        "name": {
+            "en": "Git Ignore Generator",
+            "zh": "GitIgnore生成器"
+        },
+        "url": "https://gitignore.puppylab.org",
+        "image": "gitignore.png",
+        "tags": ["Git", "Ignore"],
+        "description": {
+            "en": "An online tool for generating .gitignore files for various programming languages and frameworks.",
+            "zh": "为各种编程语言和框架生成.gitignore文件的在线工具。"
+        }
+    },
+    {
+        "name": "xxxxx",
+        "url": "https://xxxxx.puppylab.org",
+        "image": "xxxxx.png",
+        "description": {
+            "en": "xxxxx",
+            "zh": "xxxxx"
+        }
+    }
+]
