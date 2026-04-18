@@ -71,6 +71,7 @@
         },
         "url": "https://xxxxx.puppylab.org",
         "image": "xxxxx.png",
+        "tags": ["xxx", "xxx"],
         "description": {
             "en": "xxxxx",
             "zh": "xxxxx"
