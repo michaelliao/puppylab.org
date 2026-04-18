@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyLab - Open Source Software</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <style>
+        .max-w-960 { max-width: 960px; }
+        body { background-color: #0f172a; }
+    </style>
+</head>
+<body class="text-slate-200 min-h-screen flex flex-col items-center antialiased">
+
+    <div class="w-full max-w-960 flex flex-col min-h-screen bg-slate-900 shadow-2xl shadow-black/50">
+        
+        <header class="flex items-center p-10 border-b border-slate-800 bg-slate-900/50 backdrop-blur-md sticky top-0 z-10">
+            <div class="flex-none w-16 h-16 mr-8 p-3 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 shadow-lg shadow-cyan-500/20">
+                <img src="logo.svg">
+            </div>
+            <div class="flex flex-col">
+                <h1 class="text-2xl font-extrabold mb-2 text-white tracking-tight">PuppyLab - Open Source Software</h1>
+                <a href="https://puppylab.org" class="text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors mt-1">
+                    https://puppylab.org
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-grow p-10 flex flex-col gap-16">
+            {% for item in items %}
+            <section class="flex flex-col md:flex-row gap-10 items-center md:items-start group">
+                <div class="w-full md:w-[320px] flex-none rounded-xl overflow-hidden aspect-video bg-slate-800 border-2 border-slate-700 shadow-inner group-hover:border-cyan-500/50 transition-all duration-300">
+                    <a href="{{ item.url }}"><img src="{{ item.image }}" class="w-full h-full object-cover" /></a>
+                </div>
+                <div class="flex flex-col">
+                    <h2 class="text-2xl font-bold text-white mb-3 transition-colors"><a href="{{ item.url }}" class="hover:text-cyan-400">{{ item.name }}</a></h2>
+                    <p class="text-slate-400 leading-relaxed text-base">
+                        {{ item.description }}
+                    </p>
+                    <div class="mt-4 flex gap-2">
+                        {% for tag in item.tags %}
+                        <span class="px-3 py-1 text-xs font-semibold bg-slate-800 text-indigo-400 rounded-full border border-slate-700">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+        </main>
+
+        <footer class="p-10 border-t border-slate-800 text-center bg-slate-900/80">
+            <p class="text-xs text-slate-500 uppercase tracking-widest font-medium">
+                &copy; 2026 PuppyLab &bull; <a href="https://github.com/michaelliao" class="text-cyan-400 hover:text-cyan-300">Open Source</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
