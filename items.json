@@ -66,6 +66,32 @@
     },
     {
         "name": {
+            "en": "Image Processor",
+            "zh": "Image Processor"
+        },
+        "url": "https://image-processor.puppylab.org",
+        "image": "image-processor.png",
+        "tags": ["Image", "Processor", "Online"],
+        "description": {
+            "en": "Image Processor is an online image processing tool that offers features such as adding borders, scaling, and format conversion.",
+            "zh": "Image Processor是一个在线图像处理工具，提供增加边框、缩放、格式转换等功能。"
+        }
+    },
+    {
+        "name": {
+            "en": "Contract Deployer",
+            "zh": "Contract Deployer"
+        },
+        "url": "https://contract-deployer.puppylab.org",
+        "image": "contract-deployer.png",
+        "tags": ["Ethereum", "Smart Contract"],
+        "description": {
+            "en": "Smart contracts can be deployed online, with their addresses starting with a specified prefix, such as 0xFe666.",
+            "zh": "允许在线部署智能合约，其地址以指定的前缀开头，如0xFe666。"
+        }
+    },
+    {
+        "name": {
             "en": "xxxxx",
             "zh": "xxxxx"
         },
