@@ -31,7 +31,7 @@
             {% for item in items %}
             <section class="flex flex-col md:flex-row gap-10 items-center md:items-start group">
                 <div class="w-full md:w-[320px] flex-none rounded-xl overflow-hidden aspect-video bg-slate-800 border-2 border-slate-700 shadow-inner group-hover:border-cyan-500/50 transition-all duration-300">
-                    <a target="_blank" href="{{ item.url }}"><img src="{{ item.image }}" class="w-full h-full object-cover" /></a>
+                    <a target="_blank" href="{{ item.url }}"><img src="{{ item.image }}" class="w-full h-full object-cover opacity-80 hover:opacity-100" /></a>
                 </div>
                 <div class="flex flex-col">
                     <h2 class="text-2xl font-bold text-white mb-3 transition-colors"><a target="_blank" href="{{ item.url }}" class="hover:text-cyan-400">{{ item.name }}</a></h2>
